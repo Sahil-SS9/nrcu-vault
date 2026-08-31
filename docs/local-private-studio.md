@@ -38,6 +38,12 @@ python3 -m pipeline.cli deliver \
 # Verify the pinned H3 runtime
 python3 -m pipeline.runtime_preflight --lock runtime/h3.lock.json
 
+# Cold-start smoke on an alternate local port without sharing live temp/DB state
+H3_PORT=8190 \
+H3_TEMP=/tmp/nrcu-h3-launch-proof \
+H3_DATABASE_URL=sqlite:///:memory: \
+./runtime/start-h3-local.sh
+
 # Enter the offline/private FastVideo environment after model download
 source runtime/fastvideo-private-env.sh
 ```
