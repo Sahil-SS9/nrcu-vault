@@ -10,4 +10,4 @@ assets/characters/<character>/
 └── manifest.yaml
 ```
 
-Add future character material under the matching slug. Keep source references separate from generated variations, use descriptive lowercase filenames, and record provenance in one manifest per character.
+Add future character material under the matching slug. Keep source references separate from generated variations, use descriptive lowercase filenames, and record provenance in one manifest per character. For incremental and ad-hoc intake, follow [`docs/characterbuildrequirements.md`](../docs/characterbuildrequirements.md).

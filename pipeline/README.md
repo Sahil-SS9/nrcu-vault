@@ -40,4 +40,4 @@ The renderer stages repository keyframes into ComfyUI, downloads completed clips
 
 ## Local private studio
 
-The reusable local-only runner, Suno export/import boundary, delivery profiles and pinned-runtime checks are documented in [`docs/local-private-studio.md`](../docs/local-private-studio.md). New character and style ingestion intentionally stops at [`assets/characters/_template/`](../assets/characters/_template/) until the references are reviewed.
+The reusable local-only runner, Suno export/import boundary, delivery profiles and pinned-runtime checks are documented in [`docs/local-private-studio.md`](../docs/local-private-studio.md). Character packs may be completed incrementally: [`docs/characterbuildrequirements.md`](../docs/characterbuildrequirements.md) defines the provisional ad-hoc lane and the reusable-pack gate.

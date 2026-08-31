@@ -58,3 +58,5 @@ source runtime/fastvideo-private-env.sh
 - Run outputs are written under ignored `outputs/` directories and never overwrite an approved file.
 - FastVideo is isolated under `/home/kensei/video-runtimes/FastVideo`.
 - No publishing, upload, social or public Git operation is part of this workflow.
+
+Character packs do not need to be complete before an ad-hoc private request. The renderer needs an approved local keyframe; [`characterbuildrequirements.md`](characterbuildrequirements.md) defines the minimum request packet and later promotion into a reusable pack.

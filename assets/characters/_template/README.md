@@ -11,4 +11,4 @@ Rules:
 - Do not load all 10–15 characters into one generation; select only the cast present in the shot.
 - Keep `publish_allowed: false` for this personal local workflow.
 
-Character ingestion stops at this gate until Sahil supplies and approves the reference information.
+Reusable-pack approval follows these rules, but ad-hoc private work may proceed with a provisional reference packet and one approved local keyframe. See [`docs/characterbuildrequirements.md`](../../../docs/characterbuildrequirements.md).
