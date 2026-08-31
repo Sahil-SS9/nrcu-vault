@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "privacy": "local-private",
+  "runtime_path": "/home/kensei/video-runtimes/FastVideo",
+  "commit": "8f9d76a80d9887ddbf5f4833b8a5a63e10c76522",
+  "python": "3.12.13",
+  "fastvideo": "0.2.1",
+  "fastvideo_kernel": "0.3.5",
+  "torch": "2.12.0+cu126",
+  "cuda": "12.6",
+  "hardware": {
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "compute_capability": [8, 6],
+    "profile": "ampere-safe"
+  },
+  "fasth3_profile": {
+    "num_gpus": 1,
+    "vsa_kernel": "triton",
+    "fa4": false,
+    "sm100a": false,
+    "inference_torch_compile": false,
+    "compile_vae": false,
+    "parallel_vae": false
+  },
+  "network_policy": {
+    "generation": "local-only",
+    "prompt_enhancer": false,
+    "dreamverse_cloud": false,
+    "remote_judges": false
+  },
+  "activation_state": "runtime-installed-model-generation-awaits-reference-gate",
+  "offline_env_script": "runtime/fastvideo-private-env.sh"
+}

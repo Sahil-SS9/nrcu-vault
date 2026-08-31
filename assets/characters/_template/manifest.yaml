@@ -1,0 +1,28 @@
+schema_version: 1
+character_id: replace-me
+display_name: Replace Me
+review_state: pending
+canon_status: unreviewed
+variant_id: default
+identity:
+  age_range: ""
+  build: ""
+  face: ""
+  hair: ""
+  eyes: ""
+  skin_tone: ""
+  distinctive_marks: []
+default_outfit:
+  description: ""
+  palette: []
+props: []
+source_files: []
+style_variants: []
+ensemble_references: []
+voice:
+  mode: unassigned
+  local_voice_id: ""
+privacy:
+  local_only: true
+  publish_allowed: false
+notes: []

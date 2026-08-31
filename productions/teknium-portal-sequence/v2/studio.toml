@@ -1,0 +1,119 @@
+schema_version = 1
+
+[project]
+id = "teknium-portal-v2"
+kind = "test"
+privacy = "local-private"
+
+[paths]
+output_root = "outputs"
+
+[backends]
+image = "preapproved-local"
+video = "h3"
+video_endpoint = "http://127.0.0.1:8189"
+music = "music3"
+
+[[shots]]
+id = "01-entry"
+keyframe = "assets/characters/teknium/variations/shot-01-entry.png"
+backend = "h3"
+quality = "base"
+prompt = """[Shot 1] Preserve Teknium's exact green hair, red visor, dark tactical outfit, console and the dark teal command deck. Teknium sprints two powerful strides from the side doorway toward the dormant circular portal, console locked in his left hand and straps trailing behind. The camera performs a low Truck Right following his forward drive. Movement quality: sudden, strong, direct and bound. No one speaks.
+
+overall_soundscape:
+Hard boot strikes, rushing fabric, fast breath and a rising electrical room tone. No dialogue.
+
+non_diegetic_music:
+N/A"""
+
+[[shots]]
+id = "02-boot-stop"
+keyframe = "assets/characters/teknium/variations/shot-02-boot-stop.png"
+backend = "h3"
+quality = "turbo"
+prompt = """[Shot 1] Preserve the exact black combat boot, strapped trouser cuff, wet metal floor and distant circular portal. Teknium's boot skids sharply into a planted stop as a short spray of green sparks and grit travels backward across the floor. The camera remains Static at floor level. Movement quality: sudden, strong, direct and bound. No one speaks.
+
+overall_soundscape:
+A heavy boot scrape, brief sparks and one low metallic impact. No dialogue.
+
+non_diegetic_music:
+N/A"""
+
+[[shots]]
+id = "03-console-swipe"
+keyframe = "assets/characters/teknium/variations/shot-03-console-swipe.png"
+backend = "h3"
+quality = "turbo"
+prompt = """[Shot 1] Preserve Teknium's exact rear silhouette, green hair, tactical jacket, gloves, rectangular console and the same dark command deck. His right gloved hand makes one fast deliberate sweep across the console and concentric green interface arcs ignite beneath his fingers. The camera performs a short Push In over his shoulder toward the console and dormant portal. Movement quality: sudden, light, direct and bound. No one speaks.
+
+overall_soundscape:
+One tactile swipe, layered interface chimes and a strengthening console hum. No dialogue.
+
+non_diegetic_music:
+N/A"""
+
+[[shots]]
+id = "04-visor-flash"
+keyframe = "assets/characters/teknium/variations/shot-04-visor-flash.png"
+backend = "h3"
+quality = "turbo"
+prompt = """[Shot 1] Preserve Teknium's exact angular face, turbo-green spiky hair, crimson visor and high tactical collar. The red visor flashes once from dark crimson to intense red while reflected green portal rings sweep across its surface and his hair lifts in the energy wind. The camera performs a rapid Push In at a slight Dutch angle. Movement quality: sudden, strong, direct and bound. No one speaks.
+
+overall_soundscape:
+A sharp electronic lock-on tone, rising wind and one low heartbeat-like impact. No dialogue.
+
+non_diegetic_music:
+N/A"""
+
+[[shots]]
+id = "05-energy-pulse"
+keyframe = "assets/characters/teknium/variations/shot-05-energy-pulse.png"
+backend = "h3"
+quality = "base"
+prompt = """[Shot 1] Preserve Teknium's exact identity, tactical outfit, console, anatomy and the same command deck. Teknium drives the console forward and releases one concentrated green energy pulse that crosses the room and strikes the circular portal ring; hair, straps and dust snap backward from the force. The camera performs an Arc Shot to the right around his grounded stance. Movement quality: sudden, strong, direct and bound. No one speaks.
+
+overall_soundscape:
+A charging whine, forceful energy discharge, floor vibration and scattering grit. No dialogue.
+
+non_diegetic_music:
+N/A"""
+
+[[shots]]
+id = "06-system-cascade"
+keyframe = "assets/characters/teknium/variations/shot-06-system-cascade.png"
+backend = "h3"
+quality = "turbo"
+prompt = """[Shot 1] Preserve the same industrial deck, Teknium's exact silhouette and the circular portal geometry. Green floor conduits, wall strips and ceiling lights activate in one rapid cascade travelling from the foreground toward the portal while steam and dust sweep through the space. Teknium remains braced at the centre. The camera performs a controlled Pull Out from the overhead three-quarter angle. Movement quality: sustained, strong, direct and free. No one speaks.
+
+overall_soundscape:
+Sequential relay clicks, electrical surges, vented steam and a deepening structural hum. No dialogue.
+
+non_diegetic_music:
+N/A"""
+
+[[shots]]
+id = "07-portal-open"
+keyframe = "assets/characters/teknium/variations/shot-07-portal-open.png"
+backend = "h3"
+quality = "base"
+prompt = """[Shot 1] Preserve Teknium's exact identity, clothing, console and circular portal. The circular portal tears open in one violent expansion behind him, concentric rings rotating as turbulent green depth forms; Teknium shields his visor and holds his ground while hair, straps, dust and fragments pull toward the opening. The camera performs a dramatic low Push In. Movement quality: sustained, strong, direct and bound. No one speaks.
+
+overall_soundscape:
+A deep dimensional rupture, accelerating wind, rotating machinery and debris rattling across metal. No dialogue.
+
+non_diegetic_music:
+N/A"""
+
+[[shots]]
+id = "08-portal-leap"
+keyframe = "assets/characters/teknium/variations/shot-08-portal-leap.png"
+backend = "h3"
+quality = "base"
+prompt = """[Shot 1] Preserve Teknium's exact profile, green hair, red visor, tactical outfit, console and the fully open circular portal. Teknium launches forward in one committed leap and passes into the portal, leading foot and torso travelling cleanly through the threshold as straps and particles stream behind him. The camera performs a fast Truck Right matching his motion. Movement quality: sudden, strong, direct and free. No one speaks.
+
+overall_soundscape:
+One explosive foot launch, rushing fabric, particle suction and a clean portal transit impact. No dialogue.
+
+non_diegetic_music:
+N/A"""

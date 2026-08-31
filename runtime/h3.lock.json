@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "endpoint": "http://127.0.0.1:8189",
+  "privacy": "local-private",
+  "comfyui": {
+    "path": "/home/kensei/comfyui-h3/ComfyUI",
+    "commit": "7fe8a6138504f90ff7be82f3babf416da32876b1",
+    "version": "0.33.0"
+  },
+  "plugins": [
+    {
+      "name": "H3-LongVideos",
+      "path": "/home/kensei/comfyui-h3/vendor/H3-LongVideos",
+      "commit": "799e03b855a535443c8ae3dc5c6b6fe2ae599e5a"
+    },
+    {
+      "name": "minimax-h3-audio-T8",
+      "path": "/home/kensei/comfyui-h3/vendor/minimax-h3-audio-T8",
+      "commit": "649090681aa11b2082c2beeb09000d8ae939df1d"
+    },
+    {
+      "name": "Comfyui_Minimax_h3_latent_Upscaler",
+      "path": "/home/kensei/comfyui-h3/vendor/Comfyui_Minimax_h3_latent_Upscaler",
+      "commit": "d7c01b9011f2e8439493f6c02c29995a27df276f"
+    }
+  ],
+  "models": [
+    {
+      "name": "minimax_h3_fl2va_pruned_int8_convrot",
+      "path": "/home/kensei/.cache/huggingface/comfyui_models/diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+      "size": 20970379616,
+      "sha256": "e889202c41dafb67b10d67b97f0d8541508036a6090af23425a5c2615d03c47a"
+    },
+    {
+      "name": "minimax_h3_ref2va_pruned_int8_convrot",
+      "path": "/home/kensei/.cache/huggingface/comfyui_models/diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "size": 20970379616,
+      "sha256": "9255f52b6677845ad238f20dfaafa94727053694127ab7f255c048f0f9365779"
+    },
+    {
+      "name": "qwen3vl_32b_minimax_h3_nvfp4_awq",
+      "path": "/home/kensei/.cache/huggingface/comfyui_models/text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+      "size": 15687142551,
+      "sha256": "35a88d51044231fe332301d7a62aa81e3f2cba62febeb446e2c1e3e0ef76f2c6"
+    },
+    {
+      "name": "minimax_h3_video_vae_fp16",
+      "path": "/home/kensei/.cache/huggingface/comfyui_models/vae/minimax_h3_video_vae_fp16.safetensors",
+      "size": 5207808496,
+      "sha256": "7c1f131492e7eddacaac9069a61b81bdd39de5cc96561e677c5eab1cdce5e522"
+    },
+    {
+      "name": "minimax_h3_audio_vae_fp32",
+      "path": "/home/kensei/.cache/huggingface/comfyui_models/vae/minimax_h3_audio_vae_fp32.safetensors",
+      "size": 605254808,
+      "sha256": "8e505d95dd1561d47abd43d4238fd40d9bb1ae9e147ed0a4cba778d76ae4db48"
+    },
+    {
+      "name": "minimax_h3_turbo_v4_step600_ema_pruned_comfyui",
+      "path": "/home/kensei/.cache/huggingface/comfyui_models/loras/minimax_h3_turbo_v4_step600_ema_pruned_comfyui.safetensors",
+      "size": 620285592,
+      "sha256": "7098acf3ee75028fd9fcd948f50fcc8d995057fabb76f86bd3ca2c0ffc58e409"
+    },
+    {
+      "name": "minimax_h3_fl2va_fasth3_preview_v0.2_lora_pruned_rank128_fp16",
+      "path": "/home/kensei/.cache/huggingface/comfyui_models/loras/minimax_h3_fl2va_fasth3_preview_v0.2_lora_pruned_rank128_fp16.safetensors",
+      "size": 1333483008,
+      "sha256": "260616f7f60f698eb601dec376de00e3a0ba4e8c6cdc85673a5808b8bda4594c"
+    },
+    {
+      "name": "MiniMax-H3-Fun-Controlnet-Union",
+      "path": "/home/kensei/.cache/huggingface/comfyui_models/controlnet/MiniMax-H3-Fun-Controlnet-Union.safetensors",
+      "size": 6806843904,
+      "sha256": "919a48acb525dc8fc70287fcd94ec1f5e5e289a77f1df14d01099c6ce204eb02"
+    },
+    {
+      "name": "minimax_h3_latent_upscaler_3d_fp16",
+      "path": "/home/kensei/.cache/huggingface/comfyui_models/latent_upscale_models/minimax_h3_latent_upscaler_3d_fp16.safetensors",
+      "size": 690592672,
+      "sha256": "043e5a48e161610ef6c3ea974645220354d06fa618abca15f76d084812eb55c2"
+    },
+    {
+      "name": "minimax_music3_dit_int8_convrot",
+      "path": "/home/kensei/.cache/huggingface/comfyui_models/diffusion_models/minimax_music3_dit_int8_convrot.safetensors",
+      "size": 2502161682,
+      "sha256": "d6b959633e69899f99f3a92d6741c0fe79f26958a30811e50e372ef978b24d5f"
+    },
+    {
+      "name": "minimax_music3_text_encoder_pruned_int8_convrot",
+      "path": "/home/kensei/.cache/huggingface/comfyui_models/text_encoders/minimax_music3_text_encoder_pruned_int8_convrot.safetensors",
+      "size": 9196611886,
+      "sha256": "010b7416d2336a08c711bc22ee65849c9623069ddb7d89bec011a75699e52014"
+    },
+    {
+      "name": "minimax_music3_dav",
+      "path": "/home/kensei/.cache/huggingface/comfyui_models/vae/minimax_music3_dav.safetensors",
+      "size": 216696128,
+      "sha256": "2a32155b769be01445fcc2a8663b910fc9e1751e18dc1c3ec528064512d9ef0c"
+    }
+  ],
+  "required_nodes": [
+    "MiniMaxH3ImageToVideo",
+    "MiniMaxH3ReferenceToVideo",
+    "MiniMaxH3SigmaShift",
+    "VAEDecodeAudio",
+    "CreateVideo",
+    "SaveVideo",
+    "H3LongVideos",
+    "H3LongVideosFL2VA",
+    "H3LongVideosREF2VA",
+    "MiniMaxH3AudioMixT8",
+    "MiniMaxH3DialogueScriptT8",
+    "MiniMaxH3FunControlLoaderT8Advanced",
+    "MinimaxH3LatentUpscaler3D",
+    "MiniMaxMusic3TextEncode",
+    "EmptyMiniMaxMusic3LatentAudio"
+  ]
+}

@@ -15,7 +15,7 @@ character profile + source sheet
 
 ## Current routes
 
-- **Keyframes:** Codex reference-conditioned image generation.
+- **Keyframes:** existing Codex keyframes are historical proof; all new private-studio keyframes use local ComfyUI or pre-approved local files.
 - **Final video:** MiniMax H3 FL2VA, with 20 steps for heavy action and six-step Turbo for simpler shots.
 - **Preview video:** four-step FastH3 LoRA for animatics and low-motion inserts.
 - **Reference guidance:** Ref2VA where multiple images, video or audio references are needed.
@@ -37,3 +37,7 @@ python3 pipeline/examples/teknium/assemble_revision.py
 ```
 
 The renderer stages repository keyframes into ComfyUI, downloads completed clips through the local API and writes them into the production directory. The assembler requires `ffmpeg` and `ffprobe`.
+
+## Local private studio
+
+The reusable local-only runner, Suno export/import boundary, delivery profiles and pinned-runtime checks are documented in [`docs/local-private-studio.md`](../docs/local-private-studio.md). New character and style ingestion intentionally stops at [`assets/characters/_template/`](../assets/characters/_template/) until the references are reviewed.
