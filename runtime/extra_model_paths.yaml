@@ -1,0 +1,9 @@
+# ComfyUI extra model paths for the local private studio lane.
+# Machine-specific absolute paths stay configurable via H3_MODEL_PATHS;
+# this default keeps the launcher runnable on any host with comfyui-h3 present.
+studio:
+    base: /home/kensei/comfyui-h3/base
+    checkpoints: /home/kensei/comfyui-h3/base/checkpoints
+    loras: /home/kensei/comfyui-h3/base/loras
+    vae: /home/kensei/comfyui-h3/base/vae
+    upscale_models: /home/kensei/comfyui-h3/base/upscale_models
