@@ -1,6 +1,6 @@
 # ee.dd
 
-> **Community moderator — initial visual reference**
+> **Nous Crew · Community moderator**
 
 ## Confirmed facts
 
@@ -15,6 +15,14 @@ ee.dd appears as a small green frog-like meme avatar perched on **Nous Girl’s*
 
 The avatar’s reference is treated as a third-party meme-style visual cameo only. It is not a new NRCU character design or reusable vault asset.
 
+## Landscape avatar
+
+![ee.dd landscape avatar](../images/ee-dd-landscape.png)
+
+ee.dd’s avatar is a landscape that resolves into a Pepe-like face when viewed from a distance: a canoe forms the mouth, and white cloth hanging on a drying line forms the eyes.
+
+Included for archival reference under the [content notice](../CONTENT-NOTICE.md); no reuse license is stated.
+
 ## Deliberate boundaries
 
-This archive records ee.dd’s community-moderator role and the video cameo only. It does not publish personal-life details, establish a fictional backstory, or assign team membership, abilities, or additional lore.
+This archive records ee.dd’s Nous Crew membership, community role, video cameo, and the landscape avatar. Fictional backstory and abilities remain open.
