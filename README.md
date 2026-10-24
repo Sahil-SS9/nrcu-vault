@@ -4,7 +4,11 @@
 
 > **"We Build. We Share. We Never Surrender."**
 
-The NRCU is a fan-created cinematic universe centered on the **Hermes Agent Squad** — a team of open-source rebels fighting for freedom, knowledge, and a better future. Each member brings unique strengths, style, and unshakable loyalty to the cause.
+The NRCU is a **collaborative character bible and art archive** for a fan-created Nous universe: selected character designs, community stories, music videos, and game adaptations. The Hermes Agent Squad is part of that world—not the boundary of the cast.
+
+**[Browse the character bible](https://123mikeyd.github.io/Nous_Research_Cinematic_Universe/library/)** · **[Co-artists & creative credits](./CREDITS.md)**
+
+**NRCU co-artists:** [Mike / 123mikeyd (Doge Man)](./characters/doge-man.md), [ArtsBro](./characters/artsbro.md), [Sahil](./characters/sahil.md), and [Quark2world](./characters/quark2world.md). Real creator credits are separate from fictional roles and allegiances. Approved references stay selected; alternate art and open lore are labeled.
 
 **Open Source for All.**
 
@@ -85,22 +89,17 @@ All Nous. One cast, in alphabetical order. Open any picture or name to read the 
 </table>
 <!-- END GENERATED CHARACTER GALLERY -->
 
-## 🎨 Story Scenes
+## Inside the NRCU
 
-1. [The Campfire](./scenes/campfire.md) — The squad rests under the stars
-2. [The Carnival Party](./scenes/carnival.md) — Chaos at the 5000+ PRs celebration
-3. [The Beach Finale](./scenes/beach-finale.md) — "Final Episode. New Legends. Same Squad. Forever."
-4. [ASK HERMES](./scenes/ask-hermes.md) — Seeking truth in a cyberpunk world
+Scenes, comics, and moments from a world we make together.
 
----
+<a href="https://123mikeyd.github.io/Nous_Research_Cinematic_Universe/inside-nrcu/art-0.html"><img src="./inside-nrcu/thumbs/0.webp" alt="Mission control" width="680"></a>
 
-## 🎵 Music Videos
+**Mission control** — [View artwork](https://123mikeyd.github.io/Nous_Research_Cinematic_Universe/inside-nrcu/art-0.html)
 
-1. [Thank You Nous Research](./music-videos/thank-you-nous-research-arts-bro.md) — A community fan-made video by Arts Bro ([watch on YouTube](https://youtu.be/9RJHcYCGLmQ))
-2. [Tekpunk — One More Prompt](./music-videos/tekpunk-one-more-prompt.md) — Hackathon fuel by amglolification for Nous Hackathon #2 ([watch on YouTube](https://youtu.be/1hysj5oTYSw))
-3. [Glitch — Never Catch My Face](./music-videos/glitch-never-catch-my-face.md) — Official music video ft. Open Source Crew, by amglolification ([watch on YouTube](https://youtu.be/yau5rWIwx5Q))
+<a href="https://123mikeyd.github.io/Nous_Research_Cinematic_Universe/inside-nrcu/art-1.html"><img src="./inside-nrcu/thumbs/1.webp" alt="Marble / electric violet" width="150"></a> <a href="https://123mikeyd.github.io/Nous_Research_Cinematic_Universe/inside-nrcu/art-3.html"><img src="./inside-nrcu/thumbs/3.webp" alt="Blue watercolor" width="150"></a> <a href="https://123mikeyd.github.io/Nous_Research_Cinematic_Universe/inside-nrcu/art-5.html"><img src="./inside-nrcu/thumbs/5.webp" alt="Winged helmet / network" width="150"></a> <a href="https://123mikeyd.github.io/Nous_Research_Cinematic_Universe/inside-nrcu/art-6.html"><img src="./inside-nrcu/thumbs/6.webp" alt="Many-eyed golden figure" width="150"></a>
 
-Videos are linked from their production pages instead of stored as raw MP4s, so the vault stays quick to clone and easy to preserve.
+**[Explore Art Gallery →](https://123mikeyd.github.io/Nous_Research_Cinematic_Universe/inside-nrcu/gallery.html)** · [Watch Films & Music Videos ↗](https://123mikeyd.github.io/Nous_Research_Cinematic_Universe/inside-nrcu/watch.html)
 
 ---
 
